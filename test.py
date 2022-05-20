@@ -16,4 +16,4 @@ class Test(unittest.TestCase):
 
     def test_conteudo(self):
         # verifica o retorno do conteudo da pagina
-        self.assertEqual(self.result.data.decode('utf-8'), "<h1>Hello DevOps - Muito Show esse lab Parabéns Gaby</h1><br><hr>Laboratório Pipeline DevOps")
+        self.assertEqual(self.result.data.decode('utf-8'), "<h1>Laboratório Pipeline DevOps</h1>")
